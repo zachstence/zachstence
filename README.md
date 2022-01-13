@@ -6,7 +6,7 @@
       src="https://github-readme-stats.vercel.app/api?username=zachstence&count_private=true&show_icons=true&theme=dark&custom_title=GitHub%20Stats"
     />
   </a>
-  <a>
+  <a href="#">
     <img
       width="49%"
       alt="Zach's Wakatime stats"
