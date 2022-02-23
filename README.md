@@ -5,8 +5,6 @@
   [![About Me](https://img.shields.io/static/v1?label=me&message=stence.me&color=9c6bff&style=for-the-badge)](https://stence.me)
 </div>
 
-<br />
-
 ### A little about me...
 - 🏡 San Antonio, TX
 - 💻 Full-Stack Javascript Engineer at <img src="assets/zencastr.svg" /> [Zencastr](https://https://zencastr.com)
@@ -14,8 +12,6 @@
 - 🔥 Homelabber, custom keyboard builder, and amateur astrophotographer
 
 ---
-
-<br />
 
 ### Some fun stats 🔥
 <p align="center">
