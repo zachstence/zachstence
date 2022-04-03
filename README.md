@@ -7,7 +7,7 @@
 
 ### A little about me...
 - 🏡 San Antonio, TX
-- 💻 Full-Stack Javascript Engineer at <img src="assets/zencastr.svg" /> [Zencastr](https://zencastr.com)
+- 💻 Javascript Engineer at <img src="assets/zencastr.svg" /> [Zencastr](https://zencastr.com)
 - 👨🏼‍💻 Co-Founder of <img src="assets/sprocket.svg" /> [Sprocket](https://github.com/SprocketBot)
 - 🔥 Homelabber, custom keyboard builder, and amateur astrophotographer
 
