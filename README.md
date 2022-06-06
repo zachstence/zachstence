@@ -4,8 +4,6 @@
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/zachary-stence)
   &nbsp;
   [![About Me](https://img.shields.io/static/v1?label=me&message=stence.me&color=9c6bff&style=for-the-badge)](https://stence.me)
-    
-  [![monkeytype.badge]](https://monkeytype.com)
 </div>
 
 ### A little about me...
