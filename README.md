@@ -1,7 +1,7 @@
 <!-- Header -->
 <h1 align="center">Hello! I'm Zach 👋</h1>
 
-<h3 align="center">Passionate Javascript developer and homelabber with way too many side projects 💪</h3>
+<h3 align="center">Passionate Javascript engineer and homelabber with way too many side projects 💪</h3>
 
 <br />
 
