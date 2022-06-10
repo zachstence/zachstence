@@ -14,14 +14,14 @@ jobs:
       - name: base-activity
         uses: zachstence/metrics@master
         with:
-          filename: assets/metrics/metrics.base.svg
+          filename: assets/metrics/base-activity.svg
           token: ${{ secrets.METRICS_PAT }}
           base: activity
 
       - name: base-metadata
         uses: zachstence/metrics@master
         with:
-          filename: assets/metrics/metrics.base.svg
+          filename: assets/metrics/base-metadata.svg
           token: ${{ secrets.METRICS_PAT }}
           base: metadata
       
