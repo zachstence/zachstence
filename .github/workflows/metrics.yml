@@ -38,6 +38,7 @@ jobs:
           config_presets: src/metrics/preset.yml
           filename: assets/metrics/activity.svg
           
+          base: ""
           plugin_activity: yes
           plugin_activity_visibility: public
 
@@ -48,6 +49,7 @@ jobs:
           config_presets: src/metrics/preset.yml
           filename: assets/metrics/habits-charts.svg
 
+          base: ""
           plugin_habits: yes
           plugin_habits_from: 1000
           plugin_habits_charts: yes
@@ -60,6 +62,7 @@ jobs:
           config_presets: src/metrics/preset.yml
           filename: assets/metrics/habits-facts.svg
 
+          base: ""
           plugin_habits: yes
           plugin_habits_from: 1000
           plugin_habits_facts: yes
@@ -71,4 +74,5 @@ jobs:
           config_presets: src/metrics/preset.yml
           filename: assets/metrics/isocalendar.svg
 
+          base: ""
           plugin_isocalendar: yes
