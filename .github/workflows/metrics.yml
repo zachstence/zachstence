@@ -17,8 +17,8 @@ jobs:
         uses: zachstence/metrics@master
         with:
           token: ${{ secrets.METRICS_PAT }}
-          config_presets: https://raw.githubusercontent.com/zachstence/zachstence/src/metrics/preset.yaml
-          
+          config_presets: https://raw.githubusercontent.com/zachstence/zachstence/main/src/metrics/preset.yml
+
           filename: assets/metrics/base-activity.svg
           base: activity
 
@@ -26,7 +26,7 @@ jobs:
         uses: zachstence/metrics@master
         with:
           token: ${{ secrets.METRICS_PAT }}
-          config_presets: https://raw.githubusercontent.com/zachstence/zachstence/src/metrics/preset.yaml
+          config_presets: https://raw.githubusercontent.com/zachstence/zachstence/main/src/metrics/preset.yml
 
           filename: assets/metrics/base-metadata.svg
           base: metadata
