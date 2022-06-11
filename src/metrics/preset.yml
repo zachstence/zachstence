@@ -2,8 +2,17 @@ schema: v1
 name: Zach's preset
 description: My custom preset
 author: zachstence
+
 with:
+  user: zachstence
+  template: classic
+  config_timezone: America/Chicago
   extras_css: |
     h1, h2, h3 {
       color: #14A5FF !important;
     }
+
+# Config options to investigate
+# config_display: columns
+# optimize: svg
+# experimental_features: --optimize-svg
