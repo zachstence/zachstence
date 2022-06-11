@@ -1,0 +1,9 @@
+schema: v1
+name: Zach's preset
+description: My custom preset
+author: zachstence
+with:
+  extras_css: |
+    h1, h2, h3 {
+      color: #14A5FF !important;
+    }
