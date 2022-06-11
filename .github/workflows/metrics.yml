@@ -28,6 +28,15 @@ jobs:
           base: metadata
       
 
+# Config options to investigate
+# config_timezone: America/Chicago
+# config_display: columns
+# optimize: svg
+# experimental_features: --optimize-svg
+
+
+
+
 # Options
 # user: zachstence
 # template: classic
