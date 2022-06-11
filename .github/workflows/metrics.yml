@@ -6,29 +6,25 @@ on:
   workflow_dispatch:
   push: {branches: ["master", "main"]}
 jobs:
-  metrics-base-activity:
+  github-metrics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - uses: zachstence/metrics@master
+      - name: base-activity
+        uses: zachstence/metrics@master
         with:
           filename: assets/metrics/base-activity.svg
           token: ${{ secrets.METRICS_PAT }}
           base: activity
 
-  metrics-base-metadata:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: zachstence/metrics@master
+      - name: base-metadata
+        uses: zachstence/metrics@master
         with:
           filename: assets/metrics/base-metadata.svg
           token: ${{ secrets.METRICS_PAT }}
           base: metadata
       
-
 
 # Options
 # user: zachstence
