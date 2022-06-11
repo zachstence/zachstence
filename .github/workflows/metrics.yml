@@ -17,7 +17,7 @@ jobs:
         uses: zachstence/metrics@master
         with:
           token: ${{ secrets.METRICS_PAT }}
-          config_presets: https://raw.githubusercontent.com/zachstence/zachstence/main/src/metrics/preset.yml
+          config_presets: src/metrics/preset.yml
           filename: assets/metrics/base-activity.svg
 
           base: activity
@@ -26,7 +26,7 @@ jobs:
         uses: zachstence/metrics@master
         with:
           token: ${{ secrets.METRICS_PAT }}
-          config_presets: https://raw.githubusercontent.com/zachstence/zachstence/main/src/metrics/preset.yml
+          config_presets: src/metrics/preset.yml
           filename: assets/metrics/base-metadata.svg
 
           base: metadata
@@ -35,7 +35,7 @@ jobs:
         uses: zachstence/metrics@master
         with:
           token: ${{ secrets.METRICS_PAT }}
-          config_presets: https://raw.githubusercontent.com/zachstence/zachstence/main/src/metrics/preset.yml
+          config_presets: src/metrics/preset.yml
           filename: assets/metrics/activity.svg
           
           plugin_activity: yes
@@ -45,7 +45,7 @@ jobs:
         uses: zachstence/metrics@master
         with:
           token: ${{ secrets.METRICS_PAT }}
-          config_presets: https://raw.githubusercontent.com/zachstence/zachstence/main/src/metrics/preset.yml
+          config_presets: src/metrics/preset.yml
           filename: assets/metrics/habits-charts.svg
 
           plugin_habits: yes
@@ -57,7 +57,7 @@ jobs:
         uses: zachstence/metrics@master
         with:
           token: ${{ secrets.METRICS_PAT }}
-          config_presets: https://raw.githubusercontent.com/zachstence/zachstence/main/src/metrics/preset.yml
+          config_presets: src/metrics/preset.yml
           filename: assets/metrics/habits-facts.svg
 
           plugin_habits: yes
@@ -68,7 +68,7 @@ jobs:
         uses: zachstence/metrics@master
         with:
           token: ${{ secrets.METRICS_PAT }}
-          config_presets: https://raw.githubusercontent.com/zachstence/zachstence/main/src/metrics/preset.yml
+          config_presets: src/metrics/preset.yml
           filename: assets/metrics/isocalendar.svg
 
           plugin_isocalendar: yes
