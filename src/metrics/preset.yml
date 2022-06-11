@@ -9,7 +9,7 @@ with:
   config_timezone: America/Chicago
   extras_css: |
     h1, h2, h3 {
-      color: #14A5FF !important;
+      color: red !important;
     }
 
 # Config options to investigate
