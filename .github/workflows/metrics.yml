@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: Print GITHUB_WORKSPACE
         with:
-          workspace: ${{ env.GITHUB_WORKSPACE}}
+          workspace: ${{ env.GITHUB_WORKSPACE }}
         run: |
           echo $GITHUB_WORKSPACE, ${{ workspace }}
       # - name: base-activity
