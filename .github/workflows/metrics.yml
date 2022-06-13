@@ -22,7 +22,8 @@ jobs:
           cat src/metrics/preset.yml
 
       - name: base-metadata
-        uses: zachstence/metrics@master
+        # uses: zachstence/metrics@master
+        uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_PAT }}
           config_presets: src/metrics/preset.yml
