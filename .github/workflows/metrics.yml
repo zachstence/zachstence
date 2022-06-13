@@ -13,6 +13,8 @@ jobs:
     permissions:
       contents: write
     steps:
+      - uses: actions/checkout@v2
+
       - name: base-activity
         uses: zachstence/metrics@master
         with:
