@@ -14,10 +14,7 @@ jobs:
       contents: write
     steps:
       - name: Print GITHUB_WORKSPACE
-        with:
-          workspace: ${{ env.GITHUB_WORKSPACE }}
-        run: |
-          echo $GITHUB_WORKSPACE, ${{ workspace }}
+        run: echo $GITHUB_WORKSPACE
       # - name: base-activity
       #   uses: zachstence/metrics@master
       #   with:
