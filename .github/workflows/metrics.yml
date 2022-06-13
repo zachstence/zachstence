@@ -18,6 +18,8 @@ jobs:
           ls -al
           ls -al /home/runner/work/zachstence/zachstence
           ls -al /home/runner/work/zachstence/zachstence/src/metrics
+          ls -al src/metrics
+          cat src/metrics/preset.yml
 
       # - name: base-activity
       #   uses: zachstence/metrics@master
