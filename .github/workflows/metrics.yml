@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: Print GITHUB_WORKSPACE
         run: |
-          echo "$GITHUB_WORKSPACE, ${{ env.GITHUB_WORKSPACE }}"
+          echo $GITHUB_WORKSPACE, ${{ env.GITHUB_WORKSPACE }}
       # - name: base-activity
       #   uses: zachstence/metrics@master
       #   with:
