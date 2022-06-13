@@ -21,6 +21,15 @@ jobs:
           ls -al src/metrics
           cat src/metrics/preset.yml
 
+      - name: base-metadata
+        uses: zachstence/metrics@master
+        with:
+          token: ${{ secrets.METRICS_PAT }}
+          config_presets: src/metrics/preset.yml
+          filename: assets/metrics/base-metadata.svg
+
+          base: metadata
+
       # - name: base-activity
       #   uses: zachstence/metrics@master
       #   with:
@@ -29,15 +38,6 @@ jobs:
       #     filename: assets/metrics/base-activity.svg
 
       #     base: activity
-
-      # - name: base-metadata
-      #   uses: zachstence/metrics@master
-      #   with:
-      #     token: ${{ secrets.METRICS_PAT }}
-      #     config_presets: "${{ github.workspace }}/src/metrics/preset.yml"
-      #     filename: assets/metrics/base-metadata.svg
-
-      #     base: metadata
 
       # - name: activity
       #   uses: zachstence/metrics@master
