@@ -24,7 +24,7 @@
 <!-- Info -->
 ### A little about me...
 - 🏡 San Antonio, TX
-- 💻 Full-Stack Javascript Engineer at <img src="assets/zencastr.svg" /> [Zencastr](https://zencastr.com)
+- 💻 Full-Stack Javascript Engineer and Frontend Team Lead at <img src="assets/zencastr.svg" /> [Zencastr](https://zencastr.com)
 - 👨🏼‍💻 Co-Founder of <img src="assets/sprocket.svg" /> [Sprocket](https://github.com/SprocketBot)
 - 🔥 Homelabber, custom keyboard builder, and amateur astrophotographer
 - 📖 I'm learning Rust during Advent of Code 2022
