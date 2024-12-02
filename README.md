@@ -23,10 +23,11 @@
 
 <!-- Info -->
 ### A little about me...
-- 🏡 Grand Prairie, TX
-- 💻 Full-Stack Javascript Engineer and Frontend Team Lead at <img src="assets/zencastr.svg" /> [Zencastr](https://zencastr.com)
-- 👨🏼‍💻 Co-Founder of <img src="assets/sprocket.svg" /> [Sprocket](https://github.com/SprocketBot)
-- 🔥 Homelabber, custom keyboard builder, and amateur astrophotographer
+- 🏡 Dallas, TX
+- 💻 Senior Engineer at <img src="assets/evidence.svg" /> [Evidence](https://evidence.dev)
+- 🔥 Homelabber, custom keyboard builder
+- 📖 I'm currently learning more home automation
+
 
 ### More information and stats...
 
